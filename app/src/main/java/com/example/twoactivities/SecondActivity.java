@@ -32,6 +32,7 @@ public class SecondActivity extends AppCompatActivity {
                 Intent intent = new Intent(SecondActivity.this,MainActivity.class);
                 intent.putExtra("message2",messagereplied);
                 startActivity(intent);
+                
             }
         });
 
